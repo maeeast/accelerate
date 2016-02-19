@@ -19,12 +19,12 @@ get_header(); ?>
 	<section class="blog-page">
 		<div class="site-content">
 			<div class="main-content">
-				
+
 				<?php
 			if ( have_posts() ) :
 				// Start the Loop.
 				while ( have_posts() ) : the_post(); ?>
-				
+
 					<article class="post-entry">
 					<div class="entry-wrap">
 						<header class="entry-header">
@@ -48,7 +48,7 @@ get_header(); ?>
 			<?php endwhile; endif; ?>
 
 			</div>
-			
+
 			<?php get_sidebar(); ?>
 		</div>
 				<div class="clearfix"></div>
