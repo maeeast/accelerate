@@ -24,8 +24,8 @@
 }
 
 #masthead nav ul li {
-  float:left;
-  margin:0 10px;
+    display: inline;
+    padding-left: 30px;
 }
 
 .blog-post {
