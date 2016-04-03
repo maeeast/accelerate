@@ -91,3 +91,147 @@ div.case-study-images img{
   margin-bottom:50px;
   border:1px solid #ddddddd;
 }
+/*Contact Us*/
+#ninja_forms_form_1_all_fields_wrap {
+     overflow: auto;
+}
+
+#ninja_forms_field_1_div_wrap{
+	width: 47%;
+	height: 35px;
+	float: left;
+	margin-right: 28px;
+}
+
+#ninja_forms_field_2_div_wrap{
+	width: 47%;
+	height: 35px;
+	float: right;
+}
+
+#ninja_forms_field_3_div_wrap{
+	margin-top: 90px;
+}
+
+#ninja_forms_field_5{
+	background-color: #45ac9d;
+	width: 150px;
+  height: 50px;
+	color: #ffffff;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  float: right;
+}
+#ninja_forms_field_1_label{
+  font-weight: lighter;
+}
+#ninja_forms_field_2_label{
+  font-weight: lighter;
+}
+#ninja_forms_field_3_label{
+  font-weight: lighter;
+}
+/*About Us*/
+
+
+.about-page-background {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    background-position: bottom;
+    height: 350px;
+    width:100%;
+}
+.header-blurb-text{
+  width: 50%;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Montserrat';
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+em.about-page{
+  color: #45ac9d;
+}
+
+.about-intro{
+  text-align:center;
+}
+
+.about-page-contact-us{
+  padding-top: 30px;
+  text-align:center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.about-section{
+  padding-bottom: 30px;
+}
+ul.about-section {
+    display: inline;
+    list-style-type: none;
+    padding-left: 30px;
+}
+.about-item {
+  clear: both;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-item h3 {
+  clear:none;
+}
+
+.about-item figure{
+    display: inline;
+}
+.about-item-right figure {
+  float:right;
+
+}
+.about-item-left figure {
+  float:left;
+}
+
+.about-item-right .about-item-text {
+  margin-right: 250px;
+  padding-top: 30px;
+}
+
+.about-item-left .about-item-text {
+  margin-left: 250px;
+  padding-top: 30px;
+}
+
+/* 404 Page */
+.page-wrapper {
+  margin-top: 25px;
+  padding-top: 90px;
+  background: url("img/desert.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+  height: 400px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-content-wrapper {
+  padding-top: 40px;
+  background-color: rgba(255,255,255,0.6);
+  width: 50%;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.page-content h3{
+  margin-bottom: 30px;
+}

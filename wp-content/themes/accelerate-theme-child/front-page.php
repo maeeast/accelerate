@@ -1,11 +1,6 @@
 <?php
 /**
- * The template for displaying the homepage
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
+ * The template for displaying the homepage.
  *
  * @package WordPress
  * @subpackage Accelerate Marketing
@@ -59,5 +54,11 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
+
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+</div>
+<?php endif; ?>
 
 <?php get_footer(); ?>
