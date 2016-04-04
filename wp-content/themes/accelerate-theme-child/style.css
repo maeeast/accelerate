@@ -235,3 +235,11 @@ ul.about-section {
 .page-content h3{
   margin-bottom: 30px;
 }
+
+/*Single Blog Posts */
+.blog-page{
+  margin: 35px;
+}
+.left{
+  margin-left: 35px;
+}
