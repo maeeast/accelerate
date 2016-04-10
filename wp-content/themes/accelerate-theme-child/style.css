@@ -243,3 +243,13 @@ ul.about-section {
 .left{
   margin-left: 35px;
 }
+
+/* Home page widget */
+.sidebar-2{
+
+}
+.sidebar-2 .widget{
+  float: left;
+  padding: 5px;
+  width: 48%;
+}

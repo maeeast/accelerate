@@ -29,7 +29,7 @@ get_header(); ?>
 			 		$image_1 = get_field("image_1");
 					$size = "medium";
 			?>
-				<li class = "individual-featured-work">
+			<li class = "individual-featured-work">
 				<figure>
 					<?php echo wp_get_attachment_image( $image_1, $size ); ?>
 				</figure>
@@ -38,7 +38,9 @@ get_header(); ?>
 			<?php endwhile; // end of the loop. ?>
 			<?php wp_reset_query(); // resets the altered query back to the original ?>
 		</ul>
+			</div>
 		</div>
+	</section>
 
 <section class="recent-posts">
 	<div class="site-content">
@@ -56,9 +58,11 @@ get_header(); ?>
 </section>
 
 <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-<div id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-2' ); ?>
-</div>
+<section class="sidebar-2">
+	<div class="site-content">
+		<?php dynamic_sidebar( 'sidebar-2' ); ?>
+	</div>
+</section>
 <?php endif; ?>
 
 <?php get_footer(); ?>

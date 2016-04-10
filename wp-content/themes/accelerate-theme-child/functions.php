@@ -56,8 +56,8 @@
 	'name' =>__( 'Homepage sidebar', 'homepage-sidebar'),
 	'id' => 'sidebar-2',
 	'description' => __( 'Appears on the static front page template', 'homepage-sidebar' ),
-	'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-	'after_widget' => '</aside>',
+	'before_widget' => '<div id="%1$s" class="widget %2$s">',
+	'after_widget' => '</div>',
 	'before_title' => '<h3 class="widget-title">',
 	'after_title' => '</h3>',
 ) );
