@@ -43,11 +43,19 @@
 }
 
 .blog-post .read-more-link {
-	font-size: 24px;
+	font-size: 16px;
 	font-family: 'Montserrat';
 	font-weight: bold;
-	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+.recent-posts{
+  padding-bottom: 30px;
+}
+
+.featured-work {
+  overflow: auto;
+  padding-bottom: 30px;
 }
 
 .featured-work ul {
@@ -60,6 +68,7 @@
     display: inline;
     padding: 20px;
 }
+
 
 /*Case Studies*/
 h5 {
@@ -252,4 +261,38 @@ ul.about-section {
   float: left;
   padding: 5px;
   width: 48%;
+}
+
+h4.homepage-section-title {
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #45ac9d;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.subscribe-button{
+  text-align: center;
+  width: 70%;
+}
+
+.subscribe-button input{
+  background: none repeat scroll 0 0 #45ac9d;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.tweets {
+  margin: 0;
+  padding: 0;
+}
+
+.tweets li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+.tweets .stt-em{
+    font-size: 0.8em;
 }
