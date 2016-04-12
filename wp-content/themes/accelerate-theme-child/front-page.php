@@ -24,7 +24,7 @@ get_header(); ?>
 		<div class="case-studies">
 			<h4 class="homepage-section-title">Featured Work</h4>
 			<ul class = "homepage-featured-work">
-			<?php query_posts('posts_per_page=2&post_type=case_studies'); ?>
+			<?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
 			<?php while ( have_posts() ) : the_post();
 			 		$image_1 = get_field("image_1");
 					$size = "medium";
